@@ -1,0 +1,322 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:grantUriPermissions
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:35:13-47
+	android:authorities
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:34:13-60
+	android:exported
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:33:13-62
+manifest
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\elif_\.gradle\caches\transforms-3\ebd0900f67f84f61687baa5526e01814\transformed\jetified-viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\7bb0854fe7dcdbddc859306069f2bd1d\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.dhaval2404:colorpicker:2.0] C:\Users\elif_\.gradle\caches\transforms-3\a66cf405774c44c535ebb1ddc3ac5f1d\transformed\jetified-colorpicker-2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\ea5a6eb8108aae31f19bfe295707ab92\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\elif_\.gradle\caches\transforms-3\515d368475dc0488f8dc48825d3e1b0b\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil:1.2.1] C:\Users\elif_\.gradle\caches\transforms-3\dd69b421771f80b0cb1d370a8f5104f4\transformed\jetified-coil-1.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:1.2.1] C:\Users\elif_\.gradle\caches\transforms-3\4cca098072ad62e0245514cc5642c87b\transformed\jetified-coil-base-1.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\9680322d87bb8714e7d8d01e60e05dd9\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\8076f70f3aa9dcf5dbcb3a74411b3c6a\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\e6223d1de5e6a57ba0eaaa89385e04b3\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1a3b5f19b2b02e178bdec92d5b1eb5e3\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\b9035a2b99093be61096660e0c9a7b0e\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\c308855af31406f31f0b87d93e44787d\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\2264cb0f227852f3c5e150fbe80d62aa\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bc5ef1850fe91d57a16f42978616363d\transformed\jetified-room-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\3827849c5d3c8d282b356f3d00ae73ac\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\elif_\.gradle\caches\transforms-3\10d8e4ddbe96885c9e18869b46cb74a4\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\afeb9e77c9132f393b6cddc46d45dea8\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha25] C:\Users\elif_\.gradle\caches\transforms-3\22af919d1bcd9e49097b515548a38249\transformed\jetified-camera-view-1.0.0-alpha25\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\61f525aa046ab38872647ebea752515f\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\cc018b9bb302499c77025b4e237a1cfc\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-camera2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\91b802907aef3ae77b8b4cd5f53db2d1\transformed\jetified-camera-camera2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\45de737fb3c027f899b5696febb81c7a\transformed\jetified-camera-lifecycle-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\dca6c464af398bc32fc1964ed5739a70\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\91dcf81a2f75cd3e9cdc041b2aa706f7\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\elif_\.gradle\caches\transforms-3\6d90dc226366b2cd004176e13aaab37e\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\98706a818c336c5549f5bee772062dcd\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\elif_\.gradle\caches\transforms-3\4e15ca72de7016654b5cd7f046f83ba7\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\81aa8596377d1c364c7d4c40bcc62999\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\d8a36615afee1030ed7de8789d454137\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\ed30c26784e188f58159148731714f76\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\86ce3fcc05b0b0a4e2c31ad4d6ee4a47\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\0f81488c67be9c9272965f1cf62679a4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\4865f31698d42f1edf5360abaed9c51b\transformed\jetified-camera-core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\c9cca9621cb91213c817ae3590af1530\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\bb9c981c50d07775c409bd672dd8b9c7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9f9b261ce2b4e701d161670aefbb8634\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\54a89f8d4af1db4c6eb22cf66a9476b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\5950db05b27ff5211d897f5ab4f12f8c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\f71459c529c2289a37edea1e4b987df7\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\45d326b96b9eafed37a8ae24e48f730a\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\31893559579cb5f390fc3b8ffce6e9ed\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\d178d56e6a4f514af94f5c90b541f49f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\20b457521c684b212d21ffb71f8e698d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1f5d605c1f904663e8600fe0bae91e90\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\4d27632e45ccb876eeff99243f3caa9d\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\73efe3dacdb42d684c043aea2cdc5add\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\6580d0e76f29401c6b725a60e86f9265\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\2b8de55af4c488085f12e76e5c9ca35b\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1ffaab8a9a507cd135b637682a3ce77f\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\fb6456502d25e80b71160133147eb04d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\e7f1447358d1ba9cb343764ba9d9cd75\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\373e2dc9a34d9df5dd6e12014d6d6fec\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\ddb8e6e8e7dfc25a360f09e23fe18a51\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\elif_\.gradle\caches\transforms-3\197d7656eb698bee4ca27bc143440d8d\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\f820d18c081ca12e25df7d78d2617b80\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\2f151768e3213061505c2c7ff8b18616\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\973a0db583d78b544b002a21fcbb54ff\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9bf93ed8f473af449dc6b7e175ef085f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\6b602ca298780e505849a24911f5103c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android:flexbox:2.0.1] C:\Users\elif_\.gradle\caches\transforms-3\0d62d2ec1d9b1763afbb04e500b44fde\transformed\jetified-flexbox-2.0.1\AndroidManifest.xml:17:1-26:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:5:19-61
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:6:22-62
+queries
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:7:5-11:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:8:9-10:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:9:13-73
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:9:21-70
+application
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:13:5-41:19
+MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:20:9-45
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:17:9-38
+activity#com.axiel7.mydrobe.MainActivity
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:23:13-45
+	android:exported
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:22:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\elif_\.gradle\caches\transforms-3\ebd0900f67f84f61687baa5526e01814\transformed\jetified-viewbinding-7.1.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\elif_\.gradle\caches\transforms-3\ebd0900f67f84f61687baa5526e01814\transformed\jetified-viewbinding-7.1.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\7bb0854fe7dcdbddc859306069f2bd1d\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\7bb0854fe7dcdbddc859306069f2bd1d\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.dhaval2404:colorpicker:2.0] C:\Users\elif_\.gradle\caches\transforms-3\a66cf405774c44c535ebb1ddc3ac5f1d\transformed\jetified-colorpicker-2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dhaval2404:colorpicker:2.0] C:\Users\elif_\.gradle\caches\transforms-3\a66cf405774c44c535ebb1ddc3ac5f1d\transformed\jetified-colorpicker-2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\ea5a6eb8108aae31f19bfe295707ab92\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\ea5a6eb8108aae31f19bfe295707ab92\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\elif_\.gradle\caches\transforms-3\515d368475dc0488f8dc48825d3e1b0b\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\elif_\.gradle\caches\transforms-3\515d368475dc0488f8dc48825d3e1b0b\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil:1.2.1] C:\Users\elif_\.gradle\caches\transforms-3\dd69b421771f80b0cb1d370a8f5104f4\transformed\jetified-coil-1.2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:1.2.1] C:\Users\elif_\.gradle\caches\transforms-3\dd69b421771f80b0cb1d370a8f5104f4\transformed\jetified-coil-1.2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.2.1] C:\Users\elif_\.gradle\caches\transforms-3\4cca098072ad62e0245514cc5642c87b\transformed\jetified-coil-base-1.2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.2.1] C:\Users\elif_\.gradle\caches\transforms-3\4cca098072ad62e0245514cc5642c87b\transformed\jetified-coil-base-1.2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\9680322d87bb8714e7d8d01e60e05dd9\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\9680322d87bb8714e7d8d01e60e05dd9\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\8076f70f3aa9dcf5dbcb3a74411b3c6a\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\8076f70f3aa9dcf5dbcb3a74411b3c6a\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\e6223d1de5e6a57ba0eaaa89385e04b3\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\e6223d1de5e6a57ba0eaaa89385e04b3\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1a3b5f19b2b02e178bdec92d5b1eb5e3\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1a3b5f19b2b02e178bdec92d5b1eb5e3\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\b9035a2b99093be61096660e0c9a7b0e\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\b9035a2b99093be61096660e0c9a7b0e\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\c308855af31406f31f0b87d93e44787d\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\c308855af31406f31f0b87d93e44787d\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\2264cb0f227852f3c5e150fbe80d62aa\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\2264cb0f227852f3c5e150fbe80d62aa\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bc5ef1850fe91d57a16f42978616363d\transformed\jetified-room-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bc5ef1850fe91d57a16f42978616363d\transformed\jetified-room-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\3827849c5d3c8d282b356f3d00ae73ac\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\3827849c5d3c8d282b356f3d00ae73ac\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\elif_\.gradle\caches\transforms-3\10d8e4ddbe96885c9e18869b46cb74a4\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\elif_\.gradle\caches\transforms-3\10d8e4ddbe96885c9e18869b46cb74a4\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\afeb9e77c9132f393b6cddc46d45dea8\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\afeb9e77c9132f393b6cddc46d45dea8\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha25] C:\Users\elif_\.gradle\caches\transforms-3\22af919d1bcd9e49097b515548a38249\transformed\jetified-camera-view-1.0.0-alpha25\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha25] C:\Users\elif_\.gradle\caches\transforms-3\22af919d1bcd9e49097b515548a38249\transformed\jetified-camera-view-1.0.0-alpha25\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\61f525aa046ab38872647ebea752515f\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\61f525aa046ab38872647ebea752515f\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\cc018b9bb302499c77025b4e237a1cfc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\cc018b9bb302499c77025b4e237a1cfc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\91b802907aef3ae77b8b4cd5f53db2d1\transformed\jetified-camera-camera2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\91b802907aef3ae77b8b4cd5f53db2d1\transformed\jetified-camera-camera2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\45de737fb3c027f899b5696febb81c7a\transformed\jetified-camera-lifecycle-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\45de737fb3c027f899b5696febb81c7a\transformed\jetified-camera-lifecycle-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\dca6c464af398bc32fc1964ed5739a70\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\dca6c464af398bc32fc1964ed5739a70\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\91dcf81a2f75cd3e9cdc041b2aa706f7\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\91dcf81a2f75cd3e9cdc041b2aa706f7\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\elif_\.gradle\caches\transforms-3\6d90dc226366b2cd004176e13aaab37e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\elif_\.gradle\caches\transforms-3\6d90dc226366b2cd004176e13aaab37e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\98706a818c336c5549f5bee772062dcd\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\98706a818c336c5549f5bee772062dcd\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\elif_\.gradle\caches\transforms-3\4e15ca72de7016654b5cd7f046f83ba7\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\elif_\.gradle\caches\transforms-3\4e15ca72de7016654b5cd7f046f83ba7\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\81aa8596377d1c364c7d4c40bcc62999\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\81aa8596377d1c364c7d4c40bcc62999\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\d8a36615afee1030ed7de8789d454137\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\d8a36615afee1030ed7de8789d454137\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\ed30c26784e188f58159148731714f76\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\ed30c26784e188f58159148731714f76\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\86ce3fcc05b0b0a4e2c31ad4d6ee4a47\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\86ce3fcc05b0b0a4e2c31ad4d6ee4a47\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\0f81488c67be9c9272965f1cf62679a4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\0f81488c67be9c9272965f1cf62679a4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\4865f31698d42f1edf5360abaed9c51b\transformed\jetified-camera-core-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\4865f31698d42f1edf5360abaed9c51b\transformed\jetified-camera-core-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\c9cca9621cb91213c817ae3590af1530\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\c9cca9621cb91213c817ae3590af1530\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\bb9c981c50d07775c409bd672dd8b9c7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\bb9c981c50d07775c409bd672dd8b9c7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9f9b261ce2b4e701d161670aefbb8634\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9f9b261ce2b4e701d161670aefbb8634\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\54a89f8d4af1db4c6eb22cf66a9476b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\54a89f8d4af1db4c6eb22cf66a9476b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\5950db05b27ff5211d897f5ab4f12f8c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\5950db05b27ff5211d897f5ab4f12f8c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\f71459c529c2289a37edea1e4b987df7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\f71459c529c2289a37edea1e4b987df7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\45d326b96b9eafed37a8ae24e48f730a\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\45d326b96b9eafed37a8ae24e48f730a\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\31893559579cb5f390fc3b8ffce6e9ed\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\31893559579cb5f390fc3b8ffce6e9ed\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\d178d56e6a4f514af94f5c90b541f49f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\d178d56e6a4f514af94f5c90b541f49f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\20b457521c684b212d21ffb71f8e698d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\20b457521c684b212d21ffb71f8e698d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1f5d605c1f904663e8600fe0bae91e90\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1f5d605c1f904663e8600fe0bae91e90\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\4d27632e45ccb876eeff99243f3caa9d\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\4d27632e45ccb876eeff99243f3caa9d\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\73efe3dacdb42d684c043aea2cdc5add\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\73efe3dacdb42d684c043aea2cdc5add\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\6580d0e76f29401c6b725a60e86f9265\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\6580d0e76f29401c6b725a60e86f9265\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\2b8de55af4c488085f12e76e5c9ca35b\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\2b8de55af4c488085f12e76e5c9ca35b\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1ffaab8a9a507cd135b637682a3ce77f\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1ffaab8a9a507cd135b637682a3ce77f\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\fb6456502d25e80b71160133147eb04d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\fb6456502d25e80b71160133147eb04d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\e7f1447358d1ba9cb343764ba9d9cd75\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\e7f1447358d1ba9cb343764ba9d9cd75\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\373e2dc9a34d9df5dd6e12014d6d6fec\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\373e2dc9a34d9df5dd6e12014d6d6fec\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\ddb8e6e8e7dfc25a360f09e23fe18a51\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\ddb8e6e8e7dfc25a360f09e23fe18a51\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\elif_\.gradle\caches\transforms-3\197d7656eb698bee4ca27bc143440d8d\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\elif_\.gradle\caches\transforms-3\197d7656eb698bee4ca27bc143440d8d\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\f820d18c081ca12e25df7d78d2617b80\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\f820d18c081ca12e25df7d78d2617b80\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\2f151768e3213061505c2c7ff8b18616\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\2f151768e3213061505c2c7ff8b18616\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\973a0db583d78b544b002a21fcbb54ff\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\973a0db583d78b544b002a21fcbb54ff\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9bf93ed8f473af449dc6b7e175ef085f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9bf93ed8f473af449dc6b7e175ef085f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\6b602ca298780e505849a24911f5103c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\6b602ca298780e505849a24911f5103c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android:flexbox:2.0.1] C:\Users\elif_\.gradle\caches\transforms-3\0d62d2ec1d9b1763afbb04e500b44fde\transformed\jetified-flexbox-2.0.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:2.0.1] C:\Users\elif_\.gradle\caches\transforms-3\0d62d2ec1d9b1763afbb04e500b44fde\transformed\jetified-flexbox-2.0.1\AndroidManifest.xml:22:5-24:41
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:37:13-39:54
+	android:resource
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:39:17-51
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:38:17-67
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
