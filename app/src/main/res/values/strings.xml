@@ -3,6 +3,8 @@
     <string name="title_home">Home</string>
     <string name="title_today">Today</string>
     <string name="title_collection">Collection</string>
+    <string name="title_outfits">Outfits</string>
+    <string name="add_outfit">Add outfit</string>
     <string name="search">Search</string>
     <string name="more">More</string>
     <string name="sort">Sort</string>

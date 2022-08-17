@@ -29,7 +29,7 @@
 19    </queries>
 20
 21    <application
-21-->C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:13:5-41:19
+21-->C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:13:5-42:19
 22        android:name="com.axiel7.mydrobe.MyApplication"
 22-->C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:17:9-38
 23        android:allowBackup="true"

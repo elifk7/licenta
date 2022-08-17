@@ -11,10 +11,10 @@ INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main
 	android:name
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:33:13-62
 manifest
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\elif_\.gradle\caches\transforms-3\ebd0900f67f84f61687baa5526e01814\transformed\jetified-viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\7bb0854fe7dcdbddc859306069f2bd1d\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.dhaval2404:colorpicker:2.0] C:\Users\elif_\.gradle\caches\transforms-3\a66cf405774c44c535ebb1ddc3ac5f1d\transformed\jetified-colorpicker-2.0\AndroidManifest.xml:2:1-11:12
@@ -81,20 +81,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9bf93ed8f473af449dc6b7e175ef085f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\6b602ca298780e505849a24911f5103c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android:flexbox:2.0.1] C:\Users\elif_\.gradle\caches\transforms-3\0d62d2ec1d9b1763afbb04e500b44fde\transformed\jetified-flexbox-2.0.1\AndroidManifest.xml:17:1-26:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:11-69
@@ -115,7 +115,7 @@ ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\An
 	android:name
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:9:21-70
 application
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:13:5-41:19
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:13:5-42:19
 MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20

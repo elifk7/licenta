@@ -2088,6 +2088,9 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_check_24
+drawable bg_green
+drawable bg_humidity
+drawable bg_red
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2260,6 +2263,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id appBarLayout
 id apply_button
 id arc
 id asConfigured
@@ -2316,6 +2320,7 @@ id content
 id contentPanel
 id contiguous
 id coordinator
+id coordinatorLayout
 id cos
 id counterclockwise
 id custom
@@ -2507,6 +2512,8 @@ id notification_main_column_container
 id nowrap
 id off
 id on
+id outfit
+id outfit_name
 id outline
 id outward
 id packed
@@ -2579,6 +2586,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id simpleCalendarView
 id sin
 id skipCollapsed
 id slide
@@ -2786,11 +2794,13 @@ layout fragment_camera
 layout fragment_collection
 layout fragment_details
 layout fragment_home
+layout fragment_outfit
 layout fragment_search
 layout fragment_settings
 layout fragment_today
 layout image_frame
 layout item_clothing
+layout item_outfit
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2909,6 +2919,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string add_color
+string add_outfit
 string androidx_camera_default_config_provider
 string app_name
 string appbar_scrolling_view_behavior
@@ -3020,6 +3031,7 @@ string summary_collapsed_preference_list
 string summer
 string title_collection
 string title_home
+string title_outfits
 string title_recent_colors
 string title_today
 string v7_preference_off

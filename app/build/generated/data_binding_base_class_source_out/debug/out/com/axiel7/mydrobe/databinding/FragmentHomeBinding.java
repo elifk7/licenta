@@ -4,13 +4,16 @@ package com.axiel7.mydrobe.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CalendarView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
 import com.axiel7.mydrobe.R;
+import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
@@ -20,7 +23,13 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final ConstraintLayout rootView;
+
+  @NonNull
+  public final AppBarLayout appBarLayout;
+
+  @NonNull
+  public final CoordinatorLayout coordinatorLayout;
 
   @NonNull
   public final BottomAppBar homeBottomAppbar;
@@ -34,19 +43,27 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final ViewPager2 homeViewPager;
 
-  private FragmentHomeBinding(@NonNull CoordinatorLayout rootView,
+  @NonNull
+  public final CalendarView simpleCalendarView;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
+      @NonNull AppBarLayout appBarLayout, @NonNull CoordinatorLayout coordinatorLayout,
       @NonNull BottomAppBar homeBottomAppbar, @NonNull FloatingActionButton homeFab,
-      @NonNull TabLayout homeTabLayout, @NonNull ViewPager2 homeViewPager) {
+      @NonNull TabLayout homeTabLayout, @NonNull ViewPager2 homeViewPager,
+      @NonNull CalendarView simpleCalendarView) {
     this.rootView = rootView;
+    this.appBarLayout = appBarLayout;
+    this.coordinatorLayout = coordinatorLayout;
     this.homeBottomAppbar = homeBottomAppbar;
     this.homeFab = homeFab;
     this.homeTabLayout = homeTabLayout;
     this.homeViewPager = homeViewPager;
+    this.simpleCalendarView = simpleCalendarView;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -71,6 +88,18 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.appBarLayout;
+      AppBarLayout appBarLayout = ViewBindings.findChildViewById(rootView, id);
+      if (appBarLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.coordinatorLayout;
+      CoordinatorLayout coordinatorLayout = ViewBindings.findChildViewById(rootView, id);
+      if (coordinatorLayout == null) {
+        break missingId;
+      }
+
       id = R.id.home_bottom_appbar;
       BottomAppBar homeBottomAppbar = ViewBindings.findChildViewById(rootView, id);
       if (homeBottomAppbar == null) {
@@ -95,8 +124,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((CoordinatorLayout) rootView, homeBottomAppbar, homeFab,
-          homeTabLayout, homeViewPager);
+      id = R.id.simpleCalendarView;
+      CalendarView simpleCalendarView = ViewBindings.findChildViewById(rootView, id);
+      if (simpleCalendarView == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, appBarLayout, coordinatorLayout,
+          homeBottomAppbar, homeFab, homeTabLayout, homeViewPager, simpleCalendarView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

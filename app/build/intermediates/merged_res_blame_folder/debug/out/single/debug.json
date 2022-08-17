@@ -20,6 +20,10 @@
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_details.xml"
     },
     {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_outfit.xml.flat",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_outfit.xml"
+    },
+    {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_search.xml.flat",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_search.xml"
     },
@@ -64,6 +68,10 @@
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_save_24.xml"
     },
     {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_red.xml.flat",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\bg_red.xml"
+    },
+    {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_camera.xml.flat",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_camera.xml"
     },
@@ -84,6 +92,10 @@
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_item_outfit.xml.flat",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\item_outfit.xml"
+    },
+    {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_delete_forever_24.xml.flat",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_delete_forever_24.xml"
     },
@@ -102,6 +114,10 @@
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_today.xml.flat",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_green.xml.flat",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\bg_green.xml"
     },
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_bottom_sheet_main.xml.flat",
@@ -150,6 +166,10 @@
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_camera_alt_24.xml.flat",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_camera_alt_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_humidity.xml.flat",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\bg_humidity.xml"
     },
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_camera_24.xml.flat",
