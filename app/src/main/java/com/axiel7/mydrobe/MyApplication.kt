@@ -5,6 +5,7 @@ import coil.ImageLoader
 import coil.ImageLoaderFactory
 import coil.util.CoilUtils
 import com.axiel7.mydrobe.repository.ClothesRepository
+import com.axiel7.mydrobe.repository.OutfitRepository
 import com.axiel7.mydrobe.room.DrobeDatabase
 import com.axiel7.mydrobe.utils.SharedPrefsHelpers
 import okhttp3.OkHttpClient
@@ -33,5 +34,6 @@ class MyApplication : Application(), ImageLoaderFactory {
     companion object {
         lateinit var drobeDb: DrobeDatabase
         lateinit var clothesRepository: ClothesRepository
+        lateinit var outfitRepository: OutfitRepository
     }
 }

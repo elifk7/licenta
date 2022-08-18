@@ -4,7 +4,6 @@ package com.axiel7.mydrobe.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CalendarView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -43,14 +42,10 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final ViewPager2 homeViewPager;
 
-  @NonNull
-  public final CalendarView simpleCalendarView;
-
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
       @NonNull AppBarLayout appBarLayout, @NonNull CoordinatorLayout coordinatorLayout,
       @NonNull BottomAppBar homeBottomAppbar, @NonNull FloatingActionButton homeFab,
-      @NonNull TabLayout homeTabLayout, @NonNull ViewPager2 homeViewPager,
-      @NonNull CalendarView simpleCalendarView) {
+      @NonNull TabLayout homeTabLayout, @NonNull ViewPager2 homeViewPager) {
     this.rootView = rootView;
     this.appBarLayout = appBarLayout;
     this.coordinatorLayout = coordinatorLayout;
@@ -58,7 +53,6 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.homeFab = homeFab;
     this.homeTabLayout = homeTabLayout;
     this.homeViewPager = homeViewPager;
-    this.simpleCalendarView = simpleCalendarView;
   }
 
   @Override
@@ -124,14 +118,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.simpleCalendarView;
-      CalendarView simpleCalendarView = ViewBindings.findChildViewById(rootView, id);
-      if (simpleCalendarView == null) {
-        break missingId;
-      }
-
       return new FragmentHomeBinding((ConstraintLayout) rootView, appBarLayout, coordinatorLayout,
-          homeBottomAppbar, homeFab, homeTabLayout, homeViewPager, simpleCalendarView);
+          homeBottomAppbar, homeFab, homeTabLayout, homeViewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

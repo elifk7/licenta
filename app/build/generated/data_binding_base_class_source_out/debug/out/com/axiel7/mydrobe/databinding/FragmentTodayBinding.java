@@ -4,6 +4,7 @@ package com.axiel7.mydrobe.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CalendarView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,11 +21,15 @@ public final class FragmentTodayBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final CalendarView simpleCalendarView;
+
+  @NonNull
   public final RecyclerView todayList;
 
   private FragmentTodayBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView todayList) {
+      @NonNull CalendarView simpleCalendarView, @NonNull RecyclerView todayList) {
     this.rootView = rootView;
+    this.simpleCalendarView = simpleCalendarView;
     this.todayList = todayList;
   }
 
@@ -55,13 +60,19 @@ public final class FragmentTodayBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.simpleCalendarView;
+      CalendarView simpleCalendarView = ViewBindings.findChildViewById(rootView, id);
+      if (simpleCalendarView == null) {
+        break missingId;
+      }
+
       id = R.id.today_list;
       RecyclerView todayList = ViewBindings.findChildViewById(rootView, id);
       if (todayList == null) {
         break missingId;
       }
 
-      return new FragmentTodayBinding((ConstraintLayout) rootView, todayList);
+      return new FragmentTodayBinding((ConstraintLayout) rootView, simpleCalendarView, todayList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

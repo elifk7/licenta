@@ -2512,7 +2512,7 @@ id notification_main_column_container
 id nowrap
 id off
 id on
-id outfit
+id outfit_list
 id outfit_name
 id outline
 id outward

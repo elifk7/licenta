@@ -7,6 +7,7 @@ import androidx.core.view.WindowCompat
 import com.axiel7.mydrobe.databinding.ActivityMainBinding
 import com.axiel7.mydrobe.models.Clothing
 import com.axiel7.mydrobe.models.ClothingViewModel
+import com.axiel7.mydrobe.models.OutfitViewModel
 import com.axiel7.mydrobe.ui.details.DetailsFragment
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +15,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val clothingViewModel: ClothingViewModel by viewModels {
         ClothingViewModel.provideFactory(MyApplication.clothesRepository)
+    }
+    private val outfitViewModel: OutfitViewModel by viewModels {
+        OutfitViewModel.provideFactory(MyApplication.outfitRepository)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

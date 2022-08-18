@@ -21,8 +21,10 @@ import com.axiel7.mydrobe.databinding.FragmentHomeBinding
 import com.axiel7.mydrobe.models.ClothingViewModel
 import com.axiel7.mydrobe.models.Season
 import com.axiel7.mydrobe.ui.collection.CollectionFragment
+import com.axiel7.mydrobe.ui.outfit.OutfitFragment
 import com.axiel7.mydrobe.ui.today.TodayFragment
 import com.axiel7.mydrobe.utils.CalendarHelper
+import com.github.dhaval2404.colorpicker.util.setVisibility
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.tabs.TabLayoutMediator
 import com.google.android.material.transition.MaterialFadeThrough
@@ -67,6 +69,10 @@ class HomeFragment : Fragment() {
                     tab.text = getString(R.string.title_collection)
                     tab.icon = ContextCompat.getDrawable(safeContext, R.drawable.ic_hanger_alt_24)
                 }
+                2 -> {
+                    tab.text = getString(R.string.title_outfits)
+                    tab.icon = ContextCompat.getDrawable(safeContext, R.drawable.ic_hanger_alt_24)
+                }
             }
         }.attach()
 
@@ -105,6 +111,7 @@ class HomeFragment : Fragment() {
         when (binding.homeViewPager.currentItem) {
             0 -> (childFragmentManager.findFragmentByTag("f0") as TodayFragment).sortItems()
             1 -> (childFragmentManager.findFragmentByTag("f1") as CollectionFragment).sortItems()
+            2 -> (childFragmentManager.findFragmentByTag("f2") as OutfitFragment).sortItems()
         }
     }
 
@@ -147,6 +154,7 @@ class HomeFragment : Fragment() {
         binding.homeFab.show()
     }
 
+
     class TabViewPagerAdapter(fm: FragmentManager, lf: Lifecycle) : FragmentStateAdapter(fm, lf) {
         override fun getItemCount(): Int = PAGE_COUNT
 
@@ -154,12 +162,13 @@ class HomeFragment : Fragment() {
             return when (position) {
                 0 -> TodayFragment()
                 1 -> CollectionFragment()
+                2 -> OutfitFragment()
                 else -> TodayFragment()
             }
         }
     }
 
     companion object {
-        const val PAGE_COUNT = 2
+        const val PAGE_COUNT = 3
     }
 }

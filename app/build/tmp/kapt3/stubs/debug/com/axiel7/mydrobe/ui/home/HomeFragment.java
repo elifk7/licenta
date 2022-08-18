@@ -10,7 +10,7 @@ public final class HomeFragment extends androidx.fragment.app.Fragment {
     private com.axiel7.mydrobe.databinding.FragmentHomeBinding _binding;
     @org.jetbrains.annotations.NotNull()
     public static final com.axiel7.mydrobe.ui.home.HomeFragment.Companion Companion = null;
-    public static final int PAGE_COUNT = 2;
+    public static final int PAGE_COUNT = 3;
     
     public HomeFragment() {
         super();

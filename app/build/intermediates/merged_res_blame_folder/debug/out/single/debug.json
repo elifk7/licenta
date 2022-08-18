@@ -16,12 +16,12 @@
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_more_24.xml"
     },
     {
-        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_details.xml.flat",
-        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_details.xml"
-    },
-    {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_outfit.xml.flat",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_outfit.xml"
+    },
+    {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_details.xml.flat",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_details.xml"
     },
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_search.xml.flat",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_flash_off_24.xml"
     },
     {
-        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_circle_24.xml.flat",
-        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_circle_24.xml"
-    },
-    {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_save_24.xml.flat",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_save_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_circle_24.xml.flat",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\drawable\\ic_circle_24.xml"
     },
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_red.xml.flat",

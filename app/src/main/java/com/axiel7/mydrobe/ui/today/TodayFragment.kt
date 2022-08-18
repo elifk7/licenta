@@ -12,6 +12,7 @@ import com.axiel7.mydrobe.MainActivity
 import com.axiel7.mydrobe.MyApplication
 import com.axiel7.mydrobe.R
 import com.axiel7.mydrobe.adapters.ClothingAdapter
+import com.axiel7.mydrobe.databinding.FragmentHomeBinding
 import com.axiel7.mydrobe.databinding.FragmentTodayBinding
 import com.axiel7.mydrobe.ui.home.HomeFragment
 import com.axiel7.mydrobe.utils.SharedPrefsHelpers
