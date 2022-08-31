@@ -20,6 +20,10 @@
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\outfit_item_add.xml",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\outfit_item_add.xml"
+    },
+    {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chip_color.xml",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\chip_color.xml"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bottom_sheet_main.xml",
         "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\bottom_sheet_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\image_item.xml",
+        "source": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\src\\main\\res\\layout\\image_item.xml"
     },
     {
         "merged": "C:\\Users\\elif_\\Desktop\\Licenta\\licenta\\MyDrobe-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_clothing.xml",

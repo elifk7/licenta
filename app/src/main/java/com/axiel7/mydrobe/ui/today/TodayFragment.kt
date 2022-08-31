@@ -7,20 +7,18 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.RecyclerView
 import com.axiel7.mydrobe.MainActivity
 import com.axiel7.mydrobe.MyApplication
 import com.axiel7.mydrobe.R
-import com.axiel7.mydrobe.adapters.ClothingAdapter
-import com.axiel7.mydrobe.databinding.FragmentHomeBinding
+import com.axiel7.mydrobe.adapters.OutfitAdapter
 import com.axiel7.mydrobe.databinding.FragmentTodayBinding
-import com.axiel7.mydrobe.ui.home.HomeFragment
 import com.axiel7.mydrobe.utils.SharedPrefsHelpers
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
+
 class TodayFragment : Fragment() {
 
-    private lateinit var adapter: ClothingAdapter
+    private lateinit var adapter: OutfitAdapter
     private lateinit var todayViewModel: TodayViewModel
     private lateinit var safeContext: Context
     private val sharedPrefs = SharedPrefsHelpers.instance!!
@@ -35,7 +33,7 @@ class TodayFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View {
         todayViewModel = ViewModelProvider(this,
-            TodayViewModel.provideFactory(MyApplication.clothesRepository))
+            TodayViewModel.provideFactory(MyApplication.outfitRepository))
             .get(TodayViewModel::class.java)
         _binding = FragmentTodayBinding.inflate(inflater, container, false)
         return binding.root
@@ -44,30 +42,24 @@ class TodayFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        adapter = ClothingAdapter(safeContext,
-            onClickListener = { _, item -> (activity as MainActivity).openDetails(item) }
+        adapter = OutfitAdapter(safeContext,
+            onClickListener = { _, item -> (activity as MainActivity).openOutfitDetails(item) }
         )
         binding.todayList.adapter = adapter
-        binding.todayList.addOnScrollListener(object : RecyclerView.OnScrollListener() {
-            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
-                super.onScrolled(recyclerView, dx, dy)
-                if (dy > 0) {
-                    //scroll down
-                    (parentFragment as HomeFragment).hideFab()
-                } else if (dy < 0) {
-                    //scroll up
-                    (parentFragment as HomeFragment).showFab()
-                }
-            }
-        })
 
         updateSort(sortId)
         todayViewModel.setOrder(sort)
 
-        todayViewModel.clothes.observe(viewLifecycleOwner, {
-            adapter.setData(it)
-        })
+        todayViewModel.outfits.observe(viewLifecycleOwner) { it ->
+            binding.simpleCalendarView.setOnDateChangeListener { calendarView, i, i1, i2 ->
+                val data =i2.toString() + "." + (i1 + 1).toString() + "." + i
+                adapter.setData(it.filter {
+                    it.data == data
+                })
+            }
+        }
     }
+
 
     fun sortItems() {
         val items = arrayOf(getString(R.string.recently_added), getString(R.string.name))

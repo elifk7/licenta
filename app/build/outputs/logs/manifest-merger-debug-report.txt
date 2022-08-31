@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:32:9-40:20
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:grantUriPermissions
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:35:13-47
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:36:13-47
 	android:authorities
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:34:13-60
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:35:13-60
 	android:exported
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:33:13-62
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:34:13-62
 manifest
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\elif_\.gradle\caches\transforms-3\ebd0900f67f84f61687baa5526e01814\transformed\jetified-viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\7bb0854fe7dcdbddc859306069f2bd1d\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.dhaval2404:colorpicker:2.0] C:\Users\elif_\.gradle\caches\transforms-3\a66cf405774c44c535ebb1ddc3ac5f1d\transformed\jetified-colorpicker-2.0\AndroidManifest.xml:2:1-11:12
@@ -38,9 +38,13 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.g
 MERGED from [androidx.camera:camera-view:1.0.0-alpha25] C:\Users\elif_\.gradle\caches\transforms-3\22af919d1bcd9e49097b515548a38249\transformed\jetified-camera-view-1.0.0-alpha25\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\61f525aa046ab38872647ebea752515f\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\cc018b9bb302499c77025b4e237a1cfc\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core-ktx:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\a9617790fa034bb61ed71e42b5f5033c\transformed\jetified-core-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-camera2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\91b802907aef3ae77b8b4cd5f53db2d1\transformed\jetified-camera-camera2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-lifecycle:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\45de737fb3c027f899b5696febb81c7a\transformed\jetified-camera-lifecycle-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\elif_\.gradle\caches\transforms-3\5a9cd88e5ed573e4fe679caedd5f96b1\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:2:1-17:12
+MERGED from [me.relex:circleindicator:2.1.6] C:\Users\elif_\.gradle\caches\transforms-3\6df97db3207db34bebf442e466b725db\transformed\jetified-circleindicator-2.1.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\534aed17e0b84f962a665396c286d18a\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\dca6c464af398bc32fc1964ed5739a70\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\91dcf81a2f75cd3e9cdc041b2aa706f7\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\elif_\.gradle\caches\transforms-3\6d90dc226366b2cd004176e13aaab37e\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
@@ -67,13 +71,16 @@ MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\elif_\.gradle\caches
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\4d27632e45ccb876eeff99243f3caa9d\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\73efe3dacdb42d684c043aea2cdc5add\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\6580d0e76f29401c6b725a60e86f9265\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:17:1-53:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\2b8de55af4c488085f12e76e5c9ca35b\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1ffaab8a9a507cd135b637682a3ce77f\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\fbc44a7bfb959bcb681be2c9f50051c7\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\fb6456502d25e80b71160133147eb04d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\e7f1447358d1ba9cb343764ba9d9cd75\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\373e2dc9a34d9df5dd6e12014d6d6fec\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\ddb8e6e8e7dfc25a360f09e23fe18a51\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\f9f588a26591c7a7f5a7ac5159579a6a\transformed\monitor-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\elif_\.gradle\caches\transforms-3\197d7656eb698bee4ca27bc143440d8d\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\f820d18c081ca12e25df7d78d2617b80\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\2f151768e3213061505c2c7ff8b18616\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -81,20 +88,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\9bf93ed8f473af449dc6b7e175ef085f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\elif_\.gradle\caches\transforms-3\6b602ca298780e505849a24911f5103c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android:flexbox:2.0.1] C:\Users\elif_\.gradle\caches\transforms-3\0d62d2ec1d9b1763afbb04e500b44fde\transformed\jetified-flexbox-2.0.1\AndroidManifest.xml:17:1-26:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:2:11-69
@@ -106,60 +113,72 @@ uses-permission#android.permission.CAMERA
 ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:6:5-65
 	android:name
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:6:22-62
-queries
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:7:5-11:15
-intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:8:9-10:18
-action#android.media.action.IMAGE_CAPTURE
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:9:13-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:9:21-70
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:7:22-77
+queries
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:8:5-12:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:9:9-11:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:10:13-73
+	android:name
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:10:21-70
 application
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:13:5-42:19
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:14:5-43:19
 MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0-rc01] C:\Users\elif_\.gradle\caches\transforms-3\678bcea40e14f58ed60bb335a79180c0\transformed\material-1.4.0-rc01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\elif_\.gradle\caches\transforms-3\c8bc6623500dc5a9319c2f6b3542324c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\elif_\.gradle\caches\transforms-3\5a9cd88e5ed573e4fe679caedd5f96b1\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\elif_\.gradle\caches\transforms-3\5a9cd88e5ed573e4fe679caedd5f96b1\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\534aed17e0b84f962a665396c286d18a\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\534aed17e0b84f962a665396c286d18a\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:26:5-51:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\fbc44a7bfb959bcb681be2c9f50051c7\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\fbc44a7bfb959bcb681be2c9f50051c7\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\elif_\.gradle\caches\transforms-3\eee3ecc267f2e2b54ab67ff31c1d604f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:20:9-45
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:21:9-45
 	android:name
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:17:9-38
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:18:9-38
 activity#com.axiel7.mydrobe.MainActivity
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:21:9-30:20
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:22:9-31:20
 	android:label
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:24:13-45
 	android:exported
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
@@ -210,12 +229,20 @@ MERGED from [androidx.preference:preference:1.1.1] C:\Users\elif_\.gradle\caches
 MERGED from [androidx.preference:preference:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\61f525aa046ab38872647ebea752515f\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\cc018b9bb302499c77025b4e237a1cfc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\elif_\.gradle\caches\transforms-3\cc018b9bb302499c77025b4e237a1cfc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core-ktx:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\a9617790fa034bb61ed71e42b5f5033c\transformed\jetified-core-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core-ktx:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\a9617790fa034bb61ed71e42b5f5033c\transformed\jetified-core-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-camera2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\91b802907aef3ae77b8b4cd5f53db2d1\transformed\jetified-camera-camera2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-camera2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\91b802907aef3ae77b8b4cd5f53db2d1\transformed\jetified-camera-camera2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-lifecycle:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\45de737fb3c027f899b5696febb81c7a\transformed\jetified-camera-lifecycle-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-lifecycle:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\45de737fb3c027f899b5696febb81c7a\transformed\jetified-camera-lifecycle-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\elif_\.gradle\caches\transforms-3\5a9cd88e5ed573e4fe679caedd5f96b1\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\elif_\.gradle\caches\transforms-3\5a9cd88e5ed573e4fe679caedd5f96b1\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.6] C:\Users\elif_\.gradle\caches\transforms-3\6df97db3207db34bebf442e466b725db\transformed\jetified-circleindicator-2.1.6\AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.6] C:\Users\elif_\.gradle\caches\transforms-3\6df97db3207db34bebf442e466b725db\transformed\jetified-circleindicator-2.1.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\534aed17e0b84f962a665396c286d18a\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\534aed17e0b84f962a665396c286d18a\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\dca6c464af398bc32fc1964ed5739a70\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\dca6c464af398bc32fc1964ed5739a70\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\elif_\.gradle\caches\transforms-3\91dcf81a2f75cd3e9cdc041b2aa706f7\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
@@ -268,10 +295,14 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\elif_\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\73efe3dacdb42d684c043aea2cdc5add\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\6580d0e76f29401c6b725a60e86f9265\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\6580d0e76f29401c6b725a60e86f9265\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\2b8de55af4c488085f12e76e5c9ca35b\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\2b8de55af4c488085f12e76e5c9ca35b\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1ffaab8a9a507cd135b637682a3ce77f\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\1ffaab8a9a507cd135b637682a3ce77f\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\fbc44a7bfb959bcb681be2c9f50051c7\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\elif_\.gradle\caches\transforms-3\fbc44a7bfb959bcb681be2c9f50051c7\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\elif_\.gradle\caches\transforms-3\f0481d3d3f28f3c375f07572488afe57\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\fb6456502d25e80b71160133147eb04d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -282,6 +313,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\elif_\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\elif_\.gradle\caches\transforms-3\373e2dc9a34d9df5dd6e12014d6d6fec\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\ddb8e6e8e7dfc25a360f09e23fe18a51\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\elif_\.gradle\caches\transforms-3\ddb8e6e8e7dfc25a360f09e23fe18a51\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\f9f588a26591c7a7f5a7ac5159579a6a\transformed\monitor-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\f9f588a26591c7a7f5a7ac5159579a6a\transformed\monitor-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\elif_\.gradle\caches\transforms-3\197d7656eb698bee4ca27bc143440d8d\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\elif_\.gradle\caches\transforms-3\197d7656eb698bee4ca27bc143440d8d\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\elif_\.gradle\caches\transforms-3\f820d18c081ca12e25df7d78d2617b80\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
@@ -307,11 +340,11 @@ INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main
 		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:37:13-39:54
+ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:38:13-40:54
 	android:resource
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:39:17-51
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:40:17-51
 	android:name
-		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:38:17-67
+		ADDED from C:\Users\elif_\Desktop\Licenta\licenta\MyDrobe-master\app\src\main\AndroidManifest.xml:39:17-67
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
 	android:exported
@@ -320,3 +353,33 @@ ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\tran
 		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\elif_\.gradle\caches\transforms-3\bce1978a817af34454bc858d2b63efba\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:22-69
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from [androidx.test:core:1.4.0] C:\Users\elif_\.gradle\caches\transforms-3\481d58ff622cee4a95afb5316a269c9a\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103

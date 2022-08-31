@@ -17,6 +17,7 @@ class MyApplication : Application(), ImageLoaderFactory {
         SharedPrefsHelpers.init(applicationContext)
         drobeDb = DrobeDatabase.getInstance(applicationContext)
         clothesRepository = ClothesRepository(drobeDb.clothesDao())
+        outfitRepository = OutfitRepository((drobeDb.outfitDao()))
     }
 
     override fun newImageLoader(): ImageLoader {

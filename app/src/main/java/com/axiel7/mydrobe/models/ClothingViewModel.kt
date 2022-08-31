@@ -2,12 +2,22 @@ package com.axiel7.mydrobe.models
 
 import androidx.lifecycle.*
 import com.axiel7.mydrobe.repository.ClothesRepository
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
 class ClothingViewModel(private val clothesRepository: ClothesRepository) : ViewModel() {
 
     val clothes: LiveData<List<Clothing>> =
             clothesRepository.getClothing().asLiveData()
+
+    val topPhotoUris: List<String> =
+        clothesRepository.getClothingByType("[\"TOP\"]")
+
+    val bottomPhotoUris: List<String> =
+        clothesRepository.getClothingByType("[\"BOTTOM\"]")
+
+    val shoesPhotoUris: List<String> =
+        clothesRepository.getClothingByType("[\"SHOES\"]")
 
     fun addClothing(clothing: Clothing) {
         viewModelScope.launch {

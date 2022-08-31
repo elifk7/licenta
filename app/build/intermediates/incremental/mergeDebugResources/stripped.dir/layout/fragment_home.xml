@@ -80,12 +80,6 @@
             app:menu="@menu/bottom_app_bar"
             app:navigationIcon="@drawable/ic_menu_24" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/homeFab"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_anchor="@id/home_bottom_appbar"
-            app:srcCompat="@drawable/ic_add_24" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

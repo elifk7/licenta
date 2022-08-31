@@ -13,6 +13,7 @@
     <string name="apply">Aplicați</string>
     <string name="save">Salvează</string>
     <string name="name">Nume</string>
+    <string name="type">Categorie</string>
     <string name="winter">Iarnă</string>
     <string name="spring">Primăvară</string>
     <string name="summer">Vară</string>
@@ -23,9 +24,22 @@
     <string name="replace">Înlocuiește</string>
     <string name="camera">Cameră</string>
     <string name="camera_legacy_title">Folosește camera sistemului</string>
+    <string name="gallery_legacy_title">Folosește galeria</string>
     <string name="camera_legacy_summary">Activează dacă ai probleme cu camera aplicației</string>
+    <string name="gallery_legacy_summary">Activează dacă dorești să accesezi galeria</string>
     <string name="settings">Setări</string>
     <string name="share">Distribuie</string>
     <string name="recently_added">Adăugate recent</string>
     <string name="sort_by">Sortează</string>
+    <string name="favorites">Adaugă la favorite</string>
+    <string name="remove_favorites">Șterge de la  favorite</string>
+    <string name="cotton">Bumbac</string>
+    <string name="wool">Lână</string>
+    <string name="leather">Piele</string>
+    <string name="denim">Denim</string>
+    <string name="top">Top</string>
+    <string name="bottom">Pantaloni/Fustă</string>
+    <string name="shoes">Încălțăminte</string>
+    <string name="price">Preț</string>
+    <string name="gallery">Galerie</string>
 </resources>

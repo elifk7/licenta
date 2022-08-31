@@ -22,13 +22,16 @@ public final class ItemOutfitBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
+  public final ShapeableImageView bottomItem;
+
+  @NonNull
   public final ImageView fallIcon;
 
   @NonNull
-  public final ShapeableImageView image;
+  public final AppCompatTextView outfitName;
 
   @NonNull
-  public final AppCompatTextView outfitName;
+  public final ShapeableImageView shoeItem;
 
   @NonNull
   public final ImageView springIcon;
@@ -37,17 +40,24 @@ public final class ItemOutfitBinding implements ViewBinding {
   public final ImageView summerIcon;
 
   @NonNull
+  public final ShapeableImageView topItem;
+
+  @NonNull
   public final ImageView winterIcon;
 
-  private ItemOutfitBinding(@NonNull MaterialCardView rootView, @NonNull ImageView fallIcon,
-      @NonNull ShapeableImageView image, @NonNull AppCompatTextView outfitName,
-      @NonNull ImageView springIcon, @NonNull ImageView summerIcon, @NonNull ImageView winterIcon) {
+  private ItemOutfitBinding(@NonNull MaterialCardView rootView,
+      @NonNull ShapeableImageView bottomItem, @NonNull ImageView fallIcon,
+      @NonNull AppCompatTextView outfitName, @NonNull ShapeableImageView shoeItem,
+      @NonNull ImageView springIcon, @NonNull ImageView summerIcon,
+      @NonNull ShapeableImageView topItem, @NonNull ImageView winterIcon) {
     this.rootView = rootView;
+    this.bottomItem = bottomItem;
     this.fallIcon = fallIcon;
-    this.image = image;
     this.outfitName = outfitName;
+    this.shoeItem = shoeItem;
     this.springIcon = springIcon;
     this.summerIcon = summerIcon;
+    this.topItem = topItem;
     this.winterIcon = winterIcon;
   }
 
@@ -78,21 +88,27 @@ public final class ItemOutfitBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bottomItem;
+      ShapeableImageView bottomItem = ViewBindings.findChildViewById(rootView, id);
+      if (bottomItem == null) {
+        break missingId;
+      }
+
       id = R.id.fall_icon;
       ImageView fallIcon = ViewBindings.findChildViewById(rootView, id);
       if (fallIcon == null) {
         break missingId;
       }
 
-      id = R.id.image;
-      ShapeableImageView image = ViewBindings.findChildViewById(rootView, id);
-      if (image == null) {
-        break missingId;
-      }
-
       id = R.id.outfit_name;
       AppCompatTextView outfitName = ViewBindings.findChildViewById(rootView, id);
       if (outfitName == null) {
+        break missingId;
+      }
+
+      id = R.id.shoeItem;
+      ShapeableImageView shoeItem = ViewBindings.findChildViewById(rootView, id);
+      if (shoeItem == null) {
         break missingId;
       }
 
@@ -108,14 +124,20 @@ public final class ItemOutfitBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.topItem;
+      ShapeableImageView topItem = ViewBindings.findChildViewById(rootView, id);
+      if (topItem == null) {
+        break missingId;
+      }
+
       id = R.id.winter_icon;
       ImageView winterIcon = ViewBindings.findChildViewById(rootView, id);
       if (winterIcon == null) {
         break missingId;
       }
 
-      return new ItemOutfitBinding((MaterialCardView) rootView, fallIcon, image, outfitName,
-          springIcon, summerIcon, winterIcon);
+      return new ItemOutfitBinding((MaterialCardView) rootView, bottomItem, fallIcon, outfitName,
+          shoeItem, springIcon, summerIcon, topItem, winterIcon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

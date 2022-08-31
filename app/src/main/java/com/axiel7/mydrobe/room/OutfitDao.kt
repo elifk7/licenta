@@ -26,7 +26,7 @@ interface OutfitDao {
     fun searchShoes(shoes: String): Flow<List<Outfit>>
 
     @Query("SELECT * FROM outfit WHERE season LIKE :season")
-    fun getOutfitsBySeason(season: String): Flow<List<Clothing>>
+    fun getOutfitsBySeason(season: String): Flow<List<Outfit>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun addOutfit(outfit: Outfit?)

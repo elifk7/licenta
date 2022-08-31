@@ -14,7 +14,6 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.axiel7.mydrobe.R;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.bottomappbar.BottomAppBar;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -34,9 +33,6 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final BottomAppBar homeBottomAppbar;
 
   @NonNull
-  public final FloatingActionButton homeFab;
-
-  @NonNull
   public final TabLayout homeTabLayout;
 
   @NonNull
@@ -44,13 +40,12 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
       @NonNull AppBarLayout appBarLayout, @NonNull CoordinatorLayout coordinatorLayout,
-      @NonNull BottomAppBar homeBottomAppbar, @NonNull FloatingActionButton homeFab,
-      @NonNull TabLayout homeTabLayout, @NonNull ViewPager2 homeViewPager) {
+      @NonNull BottomAppBar homeBottomAppbar, @NonNull TabLayout homeTabLayout,
+      @NonNull ViewPager2 homeViewPager) {
     this.rootView = rootView;
     this.appBarLayout = appBarLayout;
     this.coordinatorLayout = coordinatorLayout;
     this.homeBottomAppbar = homeBottomAppbar;
-    this.homeFab = homeFab;
     this.homeTabLayout = homeTabLayout;
     this.homeViewPager = homeViewPager;
   }
@@ -100,12 +95,6 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.homeFab;
-      FloatingActionButton homeFab = ViewBindings.findChildViewById(rootView, id);
-      if (homeFab == null) {
-        break missingId;
-      }
-
       id = R.id.home_tab_layout;
       TabLayout homeTabLayout = ViewBindings.findChildViewById(rootView, id);
       if (homeTabLayout == null) {
@@ -119,7 +108,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, appBarLayout, coordinatorLayout,
-          homeBottomAppbar, homeFab, homeTabLayout, homeViewPager);
+          homeBottomAppbar, homeTabLayout, homeViewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

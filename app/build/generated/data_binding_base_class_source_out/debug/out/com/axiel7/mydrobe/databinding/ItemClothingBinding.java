@@ -4,7 +4,6 @@ package com.axiel7.mydrobe.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,16 +22,37 @@ public final class ItemClothingBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
+  public final ImageView bottomDrawingIcon;
+
+  @NonNull
+  public final ImageView cottonIcon;
+
+  @NonNull
+  public final ImageView denimIcon;
+
+  @NonNull
   public final ImageView fallIcon;
 
   @NonNull
-  public final ImageButton heartButton;
+  public final ImageView favoriteIcon;
 
   @NonNull
   public final ShapeableImageView image;
 
   @NonNull
+  public final ImageView leatherIcon;
+
+  @NonNull
   public final AppCompatTextView name;
+
+  @NonNull
+  public final AppCompatTextView price;
+
+  @NonNull
+  public final ImageView removeFavoriteIcon;
+
+  @NonNull
+  public final ImageView shoesDrawingIcon;
 
   @NonNull
   public final ImageView springIcon;
@@ -41,20 +61,40 @@ public final class ItemClothingBinding implements ViewBinding {
   public final ImageView summerIcon;
 
   @NonNull
+  public final ImageView topDrawingIcon;
+
+  @NonNull
   public final ImageView winterIcon;
 
-  private ItemClothingBinding(@NonNull MaterialCardView rootView, @NonNull ImageView fallIcon,
-      @NonNull ImageButton heartButton, @NonNull ShapeableImageView image,
-      @NonNull AppCompatTextView name, @NonNull ImageView springIcon, @NonNull ImageView summerIcon,
-      @NonNull ImageView winterIcon) {
+  @NonNull
+  public final ImageView woolIcon;
+
+  private ItemClothingBinding(@NonNull MaterialCardView rootView,
+      @NonNull ImageView bottomDrawingIcon, @NonNull ImageView cottonIcon,
+      @NonNull ImageView denimIcon, @NonNull ImageView fallIcon, @NonNull ImageView favoriteIcon,
+      @NonNull ShapeableImageView image, @NonNull ImageView leatherIcon,
+      @NonNull AppCompatTextView name, @NonNull AppCompatTextView price,
+      @NonNull ImageView removeFavoriteIcon, @NonNull ImageView shoesDrawingIcon,
+      @NonNull ImageView springIcon, @NonNull ImageView summerIcon,
+      @NonNull ImageView topDrawingIcon, @NonNull ImageView winterIcon,
+      @NonNull ImageView woolIcon) {
     this.rootView = rootView;
+    this.bottomDrawingIcon = bottomDrawingIcon;
+    this.cottonIcon = cottonIcon;
+    this.denimIcon = denimIcon;
     this.fallIcon = fallIcon;
-    this.heartButton = heartButton;
+    this.favoriteIcon = favoriteIcon;
     this.image = image;
+    this.leatherIcon = leatherIcon;
     this.name = name;
+    this.price = price;
+    this.removeFavoriteIcon = removeFavoriteIcon;
+    this.shoesDrawingIcon = shoesDrawingIcon;
     this.springIcon = springIcon;
     this.summerIcon = summerIcon;
+    this.topDrawingIcon = topDrawingIcon;
     this.winterIcon = winterIcon;
+    this.woolIcon = woolIcon;
   }
 
   @Override
@@ -84,15 +124,33 @@ public final class ItemClothingBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bottom_drawing_icon;
+      ImageView bottomDrawingIcon = ViewBindings.findChildViewById(rootView, id);
+      if (bottomDrawingIcon == null) {
+        break missingId;
+      }
+
+      id = R.id.cotton_icon;
+      ImageView cottonIcon = ViewBindings.findChildViewById(rootView, id);
+      if (cottonIcon == null) {
+        break missingId;
+      }
+
+      id = R.id.denim_icon;
+      ImageView denimIcon = ViewBindings.findChildViewById(rootView, id);
+      if (denimIcon == null) {
+        break missingId;
+      }
+
       id = R.id.fall_icon;
       ImageView fallIcon = ViewBindings.findChildViewById(rootView, id);
       if (fallIcon == null) {
         break missingId;
       }
 
-      id = R.id.heart_button;
-      ImageButton heartButton = ViewBindings.findChildViewById(rootView, id);
-      if (heartButton == null) {
+      id = R.id.favorite_icon;
+      ImageView favoriteIcon = ViewBindings.findChildViewById(rootView, id);
+      if (favoriteIcon == null) {
         break missingId;
       }
 
@@ -102,9 +160,33 @@ public final class ItemClothingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.leather_icon;
+      ImageView leatherIcon = ViewBindings.findChildViewById(rootView, id);
+      if (leatherIcon == null) {
+        break missingId;
+      }
+
       id = R.id.name;
       AppCompatTextView name = ViewBindings.findChildViewById(rootView, id);
       if (name == null) {
+        break missingId;
+      }
+
+      id = R.id.price;
+      AppCompatTextView price = ViewBindings.findChildViewById(rootView, id);
+      if (price == null) {
+        break missingId;
+      }
+
+      id = R.id.remove_favorite_icon;
+      ImageView removeFavoriteIcon = ViewBindings.findChildViewById(rootView, id);
+      if (removeFavoriteIcon == null) {
+        break missingId;
+      }
+
+      id = R.id.shoes_drawing_icon;
+      ImageView shoesDrawingIcon = ViewBindings.findChildViewById(rootView, id);
+      if (shoesDrawingIcon == null) {
         break missingId;
       }
 
@@ -120,14 +202,27 @@ public final class ItemClothingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.top_drawing_icon;
+      ImageView topDrawingIcon = ViewBindings.findChildViewById(rootView, id);
+      if (topDrawingIcon == null) {
+        break missingId;
+      }
+
       id = R.id.winter_icon;
       ImageView winterIcon = ViewBindings.findChildViewById(rootView, id);
       if (winterIcon == null) {
         break missingId;
       }
 
-      return new ItemClothingBinding((MaterialCardView) rootView, fallIcon, heartButton, image,
-          name, springIcon, summerIcon, winterIcon);
+      id = R.id.wool_icon;
+      ImageView woolIcon = ViewBindings.findChildViewById(rootView, id);
+      if (woolIcon == null) {
+        break missingId;
+      }
+
+      return new ItemClothingBinding((MaterialCardView) rootView, bottomDrawingIcon, cottonIcon,
+          denimIcon, fallIcon, favoriteIcon, image, leatherIcon, name, price, removeFavoriteIcon,
+          shoesDrawingIcon, springIcon, summerIcon, topDrawingIcon, winterIcon, woolIcon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

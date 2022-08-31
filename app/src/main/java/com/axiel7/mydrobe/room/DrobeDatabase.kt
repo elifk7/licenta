@@ -6,12 +6,15 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.axiel7.mydrobe.models.Clothing
+import com.axiel7.mydrobe.models.Outfit
 
 @TypeConverters(value = [com.axiel7.mydrobe.room.TypeConverters::class])
-@Database(entities = [Clothing::class], version = 1)
+@Database(entities = [Clothing::class, Outfit::class], version = 6)
 abstract class DrobeDatabase : RoomDatabase() {
 
     abstract fun clothesDao(): ClothesDao
+
+    abstract fun outfitDao(): OutfitDao
 
     companion object {
         @Volatile
@@ -24,6 +27,7 @@ abstract class DrobeDatabase : RoomDatabase() {
                     DrobeDatabase::class.java,
                     "DrobeDatabase"
                 ).allowMainThreadQueries()
+                    .fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance
                 instance

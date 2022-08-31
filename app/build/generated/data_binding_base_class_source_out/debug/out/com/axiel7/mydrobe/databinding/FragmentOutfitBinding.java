@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.axiel7.mydrobe.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,11 +21,15 @@ public final class FragmentOutfitBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final FloatingActionButton outfitHomeFab;
+
+  @NonNull
   public final RecyclerView outfitList;
 
   private FragmentOutfitBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView outfitList) {
+      @NonNull FloatingActionButton outfitHomeFab, @NonNull RecyclerView outfitList) {
     this.rootView = rootView;
+    this.outfitHomeFab = outfitHomeFab;
     this.outfitList = outfitList;
   }
 
@@ -55,13 +60,19 @@ public final class FragmentOutfitBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.outfitHomeFab;
+      FloatingActionButton outfitHomeFab = ViewBindings.findChildViewById(rootView, id);
+      if (outfitHomeFab == null) {
+        break missingId;
+      }
+
       id = R.id.outfit_list;
       RecyclerView outfitList = ViewBindings.findChildViewById(rootView, id);
       if (outfitList == null) {
         break missingId;
       }
 
-      return new FragmentOutfitBinding((ConstraintLayout) rootView, outfitList);
+      return new FragmentOutfitBinding((ConstraintLayout) rootView, outfitHomeFab, outfitList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

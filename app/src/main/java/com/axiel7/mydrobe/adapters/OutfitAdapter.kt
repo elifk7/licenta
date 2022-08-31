@@ -11,6 +11,7 @@ import coil.load
 import coil.size.Scale
 import com.axiel7.mydrobe.R
 import com.axiel7.mydrobe.databinding.ItemClothingBinding
+import com.axiel7.mydrobe.databinding.ItemOutfitBinding
 import com.axiel7.mydrobe.models.Outfit
 import com.axiel7.mydrobe.models.Season
 
@@ -25,7 +26,7 @@ class OutfitAdapter (private val context: Context,
         notifyDataSetChanged()
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OutfitAdapter.ViewHolder {
-        val binding = ItemClothingBinding.inflate(
+        val binding = ItemOutfitBinding.inflate(
             LayoutInflater.from(parent.context),
             parent,
             false
@@ -35,7 +36,7 @@ class OutfitAdapter (private val context: Context,
 
     override fun onBindViewHolder(holder: OutfitAdapter.ViewHolder, position: Int) {
         val item = outfitList?.get(position)!!
-        holder.itemBinding.name.text = item.name
+        holder.itemBinding.outfitName.text = item.name
 
 
         val params = holder.itemView.layoutParams as ViewGroup.MarginLayoutParams
@@ -52,39 +53,39 @@ class OutfitAdapter (private val context: Context,
         holder.itemView.layoutParams = params
 
         if (item.topPhotoUri != null) {
-            holder.itemBinding.image.load(item.topPhotoUri) {
+            holder.itemBinding.topItem.load(item.topPhotoUri) {
                 placeholder(R.drawable.ic_hanger_24)
                 error(R.drawable.ic_hanger_24)
                 scale(Scale.FILL)
             }
         } else {
-            holder.itemBinding.image.load(R.drawable.ic_hanger_24) {
+            holder.itemBinding.topItem.load(R.drawable.ic_hanger_24) {
                 placeholder(R.drawable.ic_hanger_24)
                 error(R.drawable.ic_hanger_24)
             }
         }
 
         if (item.bottomPhotoUri != null) {
-            holder.itemBinding.image.load(item.bottomPhotoUri) {
+            holder.itemBinding.bottomItem.load(item.bottomPhotoUri) {
                 placeholder(R.drawable.ic_hanger_24)
                 error(R.drawable.ic_hanger_24)
                 scale(Scale.FILL)
             }
         } else {
-            holder.itemBinding.image.load(R.drawable.ic_hanger_24) {
+            holder.itemBinding.bottomItem.load(R.drawable.ic_hanger_24) {
                 placeholder(R.drawable.ic_hanger_24)
                 error(R.drawable.ic_hanger_24)
             }
         }
 
         if (item.shoesPhotoUri != null) {
-            holder.itemBinding.image.load(item.shoesPhotoUri) {
+            holder.itemBinding.shoeItem.load(item.shoesPhotoUri) {
                 placeholder(R.drawable.ic_hanger_24)
                 error(R.drawable.ic_hanger_24)
                 scale(Scale.FILL)
             }
         } else {
-            holder.itemBinding.image.load(R.drawable.ic_hanger_24) {
+            holder.itemBinding.shoeItem.load(R.drawable.ic_hanger_24) {
                 placeholder(R.drawable.ic_hanger_24)
                 error(R.drawable.ic_hanger_24)
             }
@@ -118,7 +119,7 @@ class OutfitAdapter (private val context: Context,
         return outfitList?.size ?: 0
     }
 
-class ViewHolder(var itemBinding: ItemClothingBinding) :
+class ViewHolder(var itemBinding: ItemOutfitBinding) :
     RecyclerView.ViewHolder(itemBinding.root)
 
 

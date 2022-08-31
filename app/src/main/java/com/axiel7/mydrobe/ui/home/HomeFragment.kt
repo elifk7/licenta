@@ -92,9 +92,7 @@ class HomeFragment : Fragment() {
 
         setupBottomSheet()
 
-        binding.homeFab.setOnClickListener {
-            (activity as MainActivity).openDetails(null)
-        }
+
     }
 
     override fun onAttach(context: Context) {
@@ -145,15 +143,6 @@ class HomeFragment : Fragment() {
             else -> R.drawable.ic_spring_24
         }
     }
-
-    fun hideFab() {
-        binding.homeFab.hide()
-    }
-
-    fun showFab() {
-        binding.homeFab.show()
-    }
-
 
     class TabViewPagerAdapter(fm: FragmentManager, lf: Lifecycle) : FragmentStateAdapter(fm, lf) {
         override fun getItemCount(): Int = PAGE_COUNT

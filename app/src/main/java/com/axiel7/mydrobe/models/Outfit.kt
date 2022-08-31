@@ -14,5 +14,5 @@ data class Outfit(
     var shoes: String,
     var shoesPhotoUri: String? = null,
     var season: MutableList<Season> = mutableListOf(Season.NONE),
-    var data: MutableList<String> = mutableListOf()
+    var data: String
 )

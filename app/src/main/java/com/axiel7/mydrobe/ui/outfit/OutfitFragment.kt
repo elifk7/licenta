@@ -50,29 +50,21 @@ class OutfitFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         adapter = OutfitAdapter(safeContext,
-            onClickListener = { _, item -> (activity as MainActivity).openDetails(item) }
+            onClickListener = { _, item -> (activity as MainActivity).openOutfitDetails(item) }
         )
 
         binding.outfitList.adapter = adapter
-        binding.outfitList.addOnScrollListener(object : RecyclerView.OnScrollListener() {
-            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
-                super.onScrolled(recyclerView, dx, dy)
-                if (dy > 0) {
-                    //scroll down
-                    (parentFragment as HomeFragment).hideFab()
-                } else if (dy < 0) {
-                    //scroll up
-                    (parentFragment as HomeFragment).showFab()
-                }
-            }
-        })
+
+        binding.outfitHomeFab.setOnClickListener {
+            (activity as MainActivity).openOutfitDetails(null)
+        }
 
         updateSort(sortId)
         outfitViewModel.setOrder(sort)
 
-        outfitViewModel.outfits.observe(viewLifecycleOwner, {
+        outfitViewModel.outfits.observe(viewLifecycleOwner) {
             adapter.setData(it)
-        })
+        }
 
     }
 

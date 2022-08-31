@@ -13,8 +13,11 @@ interface ClothesDao {
     @Query("SELECT * FROM clothing ORDER BY CASE WHEN :order = 'id' THEN id END DESC, CASE WHEN :order = 'name' THEN name END")
     fun getClothes(order: String): Flow<List<Clothing>>
 
+    @Query("SELECT photoUri FROM clothing WHERE LOWER(type) LIKE :type")
+    fun getClothesByType(type: String): List<String>
+
     @Query("SELECT * FROM clothing WHERE id=:id")
-    fun getItemById(id: Int): Flow<Clothing>
+    fun getItemById(id: Int): Clothing
 
     @Query("SELECT * FROM clothing WHERE LOWER(name) LIKE LOWER(:query)")
     fun searchClothes(query: String): Flow<List<Clothing>>

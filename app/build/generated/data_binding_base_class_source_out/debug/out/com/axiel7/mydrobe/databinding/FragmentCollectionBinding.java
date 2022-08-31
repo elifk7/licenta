@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.axiel7.mydrobe.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,10 +23,14 @@ public final class FragmentCollectionBinding implements ViewBinding {
   @NonNull
   public final RecyclerView collectionList;
 
+  @NonNull
+  public final FloatingActionButton homeFab;
+
   private FragmentCollectionBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView collectionList) {
+      @NonNull RecyclerView collectionList, @NonNull FloatingActionButton homeFab) {
     this.rootView = rootView;
     this.collectionList = collectionList;
+    this.homeFab = homeFab;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class FragmentCollectionBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCollectionBinding((ConstraintLayout) rootView, collectionList);
+      id = R.id.homeFab;
+      FloatingActionButton homeFab = ViewBindings.findChildViewById(rootView, id);
+      if (homeFab == null) {
+        break missingId;
+      }
+
+      return new FragmentCollectionBinding((ConstraintLayout) rootView, collectionList, homeFab);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

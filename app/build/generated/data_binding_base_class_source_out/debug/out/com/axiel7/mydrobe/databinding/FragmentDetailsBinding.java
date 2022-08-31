@@ -33,6 +33,9 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final Button applyButton;
 
   @NonNull
+  public final Chip bottomChip;
+
+  @NonNull
   public final LinearLayout bottomContainer;
 
   @NonNull
@@ -42,10 +45,22 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final ChipGroup colorChipGroup;
 
   @NonNull
+  public final Chip cottonChip;
+
+  @NonNull
   public final Button deleteButton;
 
   @NonNull
+  public final Chip denimChip;
+
+  @NonNull
   public final Chip fallChip;
+
+  @NonNull
+  public final Chip favoriteChip;
+
+  @NonNull
+  public final ChipGroup favoriteChipGroup;
 
   @NonNull
   public final ShapeableImageView image;
@@ -54,10 +69,25 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final FrameLayout imageContainer;
 
   @NonNull
+  public final Chip leatherChip;
+
+  @NonNull
+  public final ChipGroup materialChipGroup;
+
+  @NonNull
   public final TextInputEditText nameTextEdit;
 
   @NonNull
   public final TextInputLayout nameTextLayout;
+
+  @NonNull
+  public final TextInputEditText priceTextEdit;
+
+  @NonNull
+  public final TextInputLayout priceTextLayout;
+
+  @NonNull
+  public final Chip removeFavoriteChip;
 
   @NonNull
   public final ChipGroup seasonChipGroup;
@@ -66,39 +96,70 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final LinearLayoutCompat sheetContainer;
 
   @NonNull
+  public final Chip shoesChip;
+
+  @NonNull
   public final Chip springChip;
 
   @NonNull
   public final Chip summerChip;
 
   @NonNull
+  public final Chip topChip;
+
+  @NonNull
+  public final ChipGroup typeChipGroup;
+
+  @NonNull
   public final Chip winterChip;
 
+  @NonNull
+  public final Chip woolChip;
+
   private FragmentDetailsBinding(@NonNull LinearLayoutCompat rootView, @NonNull Chip addColorChip,
-      @NonNull Button applyButton, @NonNull LinearLayout bottomContainer,
-      @NonNull Button cancelButton, @NonNull ChipGroup colorChipGroup, @NonNull Button deleteButton,
-      @NonNull Chip fallChip, @NonNull ShapeableImageView image,
-      @NonNull FrameLayout imageContainer, @NonNull TextInputEditText nameTextEdit,
-      @NonNull TextInputLayout nameTextLayout, @NonNull ChipGroup seasonChipGroup,
-      @NonNull LinearLayoutCompat sheetContainer, @NonNull Chip springChip,
-      @NonNull Chip summerChip, @NonNull Chip winterChip) {
+      @NonNull Button applyButton, @NonNull Chip bottomChip, @NonNull LinearLayout bottomContainer,
+      @NonNull Button cancelButton, @NonNull ChipGroup colorChipGroup, @NonNull Chip cottonChip,
+      @NonNull Button deleteButton, @NonNull Chip denimChip, @NonNull Chip fallChip,
+      @NonNull Chip favoriteChip, @NonNull ChipGroup favoriteChipGroup,
+      @NonNull ShapeableImageView image, @NonNull FrameLayout imageContainer,
+      @NonNull Chip leatherChip, @NonNull ChipGroup materialChipGroup,
+      @NonNull TextInputEditText nameTextEdit, @NonNull TextInputLayout nameTextLayout,
+      @NonNull TextInputEditText priceTextEdit, @NonNull TextInputLayout priceTextLayout,
+      @NonNull Chip removeFavoriteChip, @NonNull ChipGroup seasonChipGroup,
+      @NonNull LinearLayoutCompat sheetContainer, @NonNull Chip shoesChip, @NonNull Chip springChip,
+      @NonNull Chip summerChip, @NonNull Chip topChip, @NonNull ChipGroup typeChipGroup,
+      @NonNull Chip winterChip, @NonNull Chip woolChip) {
     this.rootView = rootView;
     this.addColorChip = addColorChip;
     this.applyButton = applyButton;
+    this.bottomChip = bottomChip;
     this.bottomContainer = bottomContainer;
     this.cancelButton = cancelButton;
     this.colorChipGroup = colorChipGroup;
+    this.cottonChip = cottonChip;
     this.deleteButton = deleteButton;
+    this.denimChip = denimChip;
     this.fallChip = fallChip;
+    this.favoriteChip = favoriteChip;
+    this.favoriteChipGroup = favoriteChipGroup;
     this.image = image;
     this.imageContainer = imageContainer;
+    this.leatherChip = leatherChip;
+    this.materialChipGroup = materialChipGroup;
     this.nameTextEdit = nameTextEdit;
     this.nameTextLayout = nameTextLayout;
+    this.priceTextEdit = priceTextEdit;
+    this.priceTextLayout = priceTextLayout;
+    this.removeFavoriteChip = removeFavoriteChip;
     this.seasonChipGroup = seasonChipGroup;
     this.sheetContainer = sheetContainer;
+    this.shoesChip = shoesChip;
     this.springChip = springChip;
     this.summerChip = summerChip;
+    this.topChip = topChip;
+    this.typeChipGroup = typeChipGroup;
     this.winterChip = winterChip;
+    this.woolChip = woolChip;
   }
 
   @Override
@@ -140,6 +201,12 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.bottom_chip;
+      Chip bottomChip = ViewBindings.findChildViewById(rootView, id);
+      if (bottomChip == null) {
+        break missingId;
+      }
+
       id = R.id.bottom_container;
       LinearLayout bottomContainer = ViewBindings.findChildViewById(rootView, id);
       if (bottomContainer == null) {
@@ -158,15 +225,39 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cotton_chip;
+      Chip cottonChip = ViewBindings.findChildViewById(rootView, id);
+      if (cottonChip == null) {
+        break missingId;
+      }
+
       id = R.id.delete_button;
       Button deleteButton = ViewBindings.findChildViewById(rootView, id);
       if (deleteButton == null) {
         break missingId;
       }
 
+      id = R.id.denim_chip;
+      Chip denimChip = ViewBindings.findChildViewById(rootView, id);
+      if (denimChip == null) {
+        break missingId;
+      }
+
       id = R.id.fall_chip;
       Chip fallChip = ViewBindings.findChildViewById(rootView, id);
       if (fallChip == null) {
+        break missingId;
+      }
+
+      id = R.id.favorite_chip;
+      Chip favoriteChip = ViewBindings.findChildViewById(rootView, id);
+      if (favoriteChip == null) {
+        break missingId;
+      }
+
+      id = R.id.favorite_chip_group;
+      ChipGroup favoriteChipGroup = ViewBindings.findChildViewById(rootView, id);
+      if (favoriteChipGroup == null) {
         break missingId;
       }
 
@@ -182,6 +273,18 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.leather_chip;
+      Chip leatherChip = ViewBindings.findChildViewById(rootView, id);
+      if (leatherChip == null) {
+        break missingId;
+      }
+
+      id = R.id.material_chip_group;
+      ChipGroup materialChipGroup = ViewBindings.findChildViewById(rootView, id);
+      if (materialChipGroup == null) {
+        break missingId;
+      }
+
       id = R.id.name_text_edit;
       TextInputEditText nameTextEdit = ViewBindings.findChildViewById(rootView, id);
       if (nameTextEdit == null) {
@@ -194,6 +297,24 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.price_text_edit;
+      TextInputEditText priceTextEdit = ViewBindings.findChildViewById(rootView, id);
+      if (priceTextEdit == null) {
+        break missingId;
+      }
+
+      id = R.id.price_text_layout;
+      TextInputLayout priceTextLayout = ViewBindings.findChildViewById(rootView, id);
+      if (priceTextLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.remove_favorite_chip;
+      Chip removeFavoriteChip = ViewBindings.findChildViewById(rootView, id);
+      if (removeFavoriteChip == null) {
+        break missingId;
+      }
+
       id = R.id.season_chip_group;
       ChipGroup seasonChipGroup = ViewBindings.findChildViewById(rootView, id);
       if (seasonChipGroup == null) {
@@ -201,6 +322,12 @@ public final class FragmentDetailsBinding implements ViewBinding {
       }
 
       LinearLayoutCompat sheetContainer = (LinearLayoutCompat) rootView;
+
+      id = R.id.shoes_chip;
+      Chip shoesChip = ViewBindings.findChildViewById(rootView, id);
+      if (shoesChip == null) {
+        break missingId;
+      }
 
       id = R.id.spring_chip;
       Chip springChip = ViewBindings.findChildViewById(rootView, id);
@@ -214,16 +341,36 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.top_chip;
+      Chip topChip = ViewBindings.findChildViewById(rootView, id);
+      if (topChip == null) {
+        break missingId;
+      }
+
+      id = R.id.type_chip_group;
+      ChipGroup typeChipGroup = ViewBindings.findChildViewById(rootView, id);
+      if (typeChipGroup == null) {
+        break missingId;
+      }
+
       id = R.id.winter_chip;
       Chip winterChip = ViewBindings.findChildViewById(rootView, id);
       if (winterChip == null) {
         break missingId;
       }
 
+      id = R.id.wool_chip;
+      Chip woolChip = ViewBindings.findChildViewById(rootView, id);
+      if (woolChip == null) {
+        break missingId;
+      }
+
       return new FragmentDetailsBinding((LinearLayoutCompat) rootView, addColorChip, applyButton,
-          bottomContainer, cancelButton, colorChipGroup, deleteButton, fallChip, image,
-          imageContainer, nameTextEdit, nameTextLayout, seasonChipGroup, sheetContainer, springChip,
-          summerChip, winterChip);
+          bottomChip, bottomContainer, cancelButton, colorChipGroup, cottonChip, deleteButton,
+          denimChip, fallChip, favoriteChip, favoriteChipGroup, image, imageContainer, leatherChip,
+          materialChipGroup, nameTextEdit, nameTextLayout, priceTextEdit, priceTextLayout,
+          removeFavoriteChip, seasonChipGroup, sheetContainer, shoesChip, springChip, summerChip,
+          topChip, typeChipGroup, winterChip, woolChip);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -54,26 +54,17 @@ class CollectionFragment : Fragment() {
         )
 
         binding.collectionList.adapter = adapter
-        binding.collectionList.addOnScrollListener(object : RecyclerView.OnScrollListener() {
-            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
-                super.onScrolled(recyclerView, dx, dy)
-                if (dy > 0) {
-                    //scroll down
-                    (parentFragment as HomeFragment).hideFab()
-                } else if (dy < 0) {
-                    //scroll up
-                    (parentFragment as HomeFragment).showFab()
-                }
-            }
-        })
 
         updateSort(sortId)
         collectionViewModel.setOrder(sort)
 
-        collectionViewModel.clothes.observe(viewLifecycleOwner, {
+        collectionViewModel.clothes.observe(viewLifecycleOwner) {
             adapter.setData(it)
-        })
+        }
 
+        binding.homeFab.setOnClickListener {
+            (activity as MainActivity).openDetails(null)
+        }
     }
 
     fun sortItems() {

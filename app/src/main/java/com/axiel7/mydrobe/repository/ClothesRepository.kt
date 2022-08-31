@@ -9,11 +9,9 @@ class ClothesRepository(private val clothesDao: ClothesDao) {
 
     fun getClothing(order: String) = clothesDao.getClothes(order)
 
+    fun getClothingByType(type: String) = clothesDao.getClothesByType(type)
+
     fun searchClothing(query: String) = clothesDao.searchClothes(query)
-
-    fun getClothesBySeason(season: String) = clothesDao.getClothesBySeason(season)
-
-    fun getClothesBySeason(season: String, order: String) = clothesDao.getClothesBySeason(season, order)
 
     suspend fun createClothing(clothing: Clothing) {
         clothesDao.addClothing(clothing)

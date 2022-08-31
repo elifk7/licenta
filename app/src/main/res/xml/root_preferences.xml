@@ -10,4 +10,14 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory app:title="@string/gallery">
+
+        <SwitchPreferenceCompat
+            app:key="gallery_legacy"
+            app:title="@string/gallery_legacy_title"
+            app:summary="@string/gallery_legacy_summary"
+            app:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

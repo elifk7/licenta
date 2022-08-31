@@ -1,12 +1,12 @@
 {
-  "formatVersion": 1,
+  "formatVersion": 6,
   "database": {
-    "version": 1,
+    "version": 6,
     "identityHash": "dca72724acb30c78a6b032e1addd3a4c",
     "entities": [
       {
         "tableName": "Clothing",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `photoUri` TEXT, `colors` TEXT, `seasons` TEXT NOT NULL, `lastUsed` INTEGER NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `photoUri` TEXT, `colors` TEXT, `type` TEXT NOT NULL, `material` TEXT NOT NULL, `price` INTEGER, `isFavorite` BOOLEAN, `seasons` TEXT NOT NULL, `lastUsed` INTEGER NOT NULL)",
         "fields": [
           {
             "fieldPath": "id",
@@ -33,6 +33,30 @@
             "notNull": false
           },
           {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "material",
+            "columnName": "material",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "price",
+            "columnName": "price",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "BOOLEAN",
+            "notNull": false
+          },
+          {
             "fieldPath": "seasons",
             "columnName": "seasons",
             "affinity": "TEXT",
@@ -53,6 +77,80 @@
         },
         "indices": [],
         "foreignKeys": []
+      },
+      {
+        "tableName": "Outfit",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL,`top` TEXT NOT NULL, `topPhotoUri` TEXT,`bottom` TEXT NOT NULL, `bottomPhotoUri` TEXT,`shoes` TEXT NOT NULL, `shoesPhotoUri` TEXT, `seasons` TEXT NOT NULL, `data` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "top",
+            "columnName": "top",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "topPhotoUri",
+            "columnName": "topPhotoUri",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "bottom",
+            "columnName": "bottom",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "topPhotoUri",
+            "columnName": "topPhotoUri",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "shoes",
+            "columnName": "shoes",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "shoesPhotoUri",
+            "columnName": "shoesPhotoUri",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "season",
+            "columnName": "season",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "data",
+            "columnName": "data",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+      ],
+      "primaryKey": {
+        "columnNames": [
+          "id"
+        ],
+        "autoGenerate": true
+      },
+      "indices": [],
+      "foreignKeys": []
       },
       {
         "tableName": "Color",
